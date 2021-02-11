@@ -1,37 +1,79 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+ 
+    <html>
+      <head>
+         <title> BIG BLACK PAGE </title>
+      </head>
+      <body style="background-color: black">
+         <div align="center" style="font-size:50px;position: fixed; top:-10%;right:0%;">
+                 <h6 style="background-color: black;">
+                          <font size="50px"face="arial"color="white"><u> 
+                                           BLACK PAGE</u></font> </h6></div>
+           <style>
+/* Style The Dropdown Button */
+.dropbtn {
+  background-color: black;
+  position: fixed;
+  left:0%;
+  top: 0%;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: solid;
+  cursor: pointer;
+}
 
-You can use the [editor on GitHub](https://github.com/reaity767/website/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: fixed;
+  top: 13%;
+  background-color: gray;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
 
-### Markdown
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
 
-```markdown
-Syntax highlighted code block
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
-# Header 1
-## Header 2
-### Header 3
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: gray;
+}
+</style>
 
-- Bulleted
-- List
+<div class="dropdown">
+  <button class="dropbtn">other sites</button>
+  <div class="dropdown-content">
+    <a href="http://www.blankwebsite.com/">BIG WHITE WEBSITE</a>
+   
+  </div>
+</div>
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/reaity767/website/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+.         </body>    
+   
+     </html>
